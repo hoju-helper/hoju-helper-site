@@ -1781,7 +1781,8 @@ body::after {
 
   .hero {
     min-height: 580px;
-    padding: 34px 0;
+    padding: 44px 0 34px;
+    align-items: flex-start;
   }
 
   .hero-bg,
@@ -1806,7 +1807,8 @@ body::after {
   .hero-content {
     padding-left: 18px;
     padding-right: 18px;
-    transform: translateY(-24px);
+    transform: none;
+    margin-top: 18px;
   }
 
   .hero-label {
@@ -1832,7 +1834,7 @@ body::after {
   .hero-buttons {
     justify-content: center;
     gap: 14px;
-    margin-top: 24px;
+    margin-top: 90px;
   }
 
   .hero .btn-primary {
