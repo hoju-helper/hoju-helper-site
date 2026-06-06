@@ -1780,7 +1780,7 @@ body::after {
   }
 
   .hero {
-    min-height: 580px;
+    min-height: 520px;
     padding: 44px 0 34px;
     align-items: flex-start;
   }
@@ -1793,7 +1793,7 @@ body::after {
 
   .hero-bg video,
   .hero-bg img {
-    object-position: 58% center;
+    object-position: 55% center;
   }
 
   .hero-overlay {
