@@ -2086,3 +2086,9 @@ body::after {
     transform: none !important;
   }
 }
+
+@media (max-width: 768px) {
+  .recruit-hero .hero-content {
+    margin-top: 140px;
+  }
+}
