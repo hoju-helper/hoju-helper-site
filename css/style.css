@@ -2141,3 +2141,23 @@ body::after {
   font-weight: 700;
   white-space: nowrap;
 }
+
+.hero-video-sp{
+  display:none;
+}
+
+@media (max-width:768px){
+
+  .hero-video-pc{
+    display:none;
+  }
+
+  .hero-video-sp{
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:58% center !important;
+  }
+
+}
