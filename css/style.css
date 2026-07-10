@@ -2160,3 +2160,9 @@ body::after {
     margin-top: 180px;
   }
 }
+
+@media (max-width: 768px) {
+  .recruit-hero .hero-buttons {
+    margin-top: 28px;
+  }
+}
