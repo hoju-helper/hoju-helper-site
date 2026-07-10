@@ -2091,4 +2091,53 @@ body::after {
   .recruit-hero .hero-content {
     margin-top: 140px;
   }
+
+  .recruit-hero video {
+    object-position: 58% center !important;
+  }
+}
+
+.recruit-job .faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.recruit-job .faq-title {
+  flex: 1;
+}
+
+.recruit-job .faq-q {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 110px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #755847;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.recruit-job .faq-answer {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.recruit-job .faq-a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #f4efec;
+  color: #755847;
+  font-weight: 700;
+  white-space: nowrap;
 }
